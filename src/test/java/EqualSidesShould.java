@@ -18,6 +18,11 @@ public class EqualSidesShould {
         assertThat(EqualSides.findEvenIndex(new int[] {0, 0})).isEqualTo(0);
     }
 
+    @Test
+    public void not_find_index_when_array_has_three_elements_and_dont_has_equals_sizes() {
+        assertThat(EqualSides.findEvenIndex(new int[] {0, 0, -1})).isEqualTo(-1);
+    }
+
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
