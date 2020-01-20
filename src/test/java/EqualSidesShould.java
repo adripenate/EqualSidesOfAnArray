@@ -29,12 +29,16 @@ public class EqualSidesShould {
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
-            for (int i = 0; i<elements.length-1; i++){
-                int[] rightSize = Arrays.copyOfRange(elements, i+1, elements.length);
+            for (int position = 0; position<elements.length-1; position++){
+                int[] rightSize = getRightSizeOf(elements, position);
                 int sumElementes = Arrays.stream(rightSize).sum();
-                if (sumElementes == 0) return i;
+                if (sumElementes == 0) return position;
             }
             return -1;
+        }
+
+        private static int[] getRightSizeOf(int[] elements, int position) {
+            return Arrays.copyOfRange(elements, position+1, elements.length);
         }
 
         private static boolean hasOnlyOne(int[] elements) {

@@ -30,12 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EqualSidesShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="274">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#1591#1592#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,19 +200,31 @@
       <option name="project" value="LOCAL" />
       <updated>1579521398480</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Green test - find_index_when_array_has_two_elements_and_the_last_is_zero">
+      <created>1579521456054</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579521456054</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Red test - not_find_index_when_array_has_three_elements_and_dont_has_equals_sizes">
+      <created>1579521562518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579521562518</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Green test - not_find_index_when_array_has_three_elements_and_dont_has_equals_sizes">
+      <created>1579522369550</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579522369550</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EqualSidesShould - 2020.01.20 at 11h 49m 14s.xml">
-      <configuration name="EqualSidesShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 49m 50s.xml">
-      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 52m 44s.xml">
-      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 53m 37s.xml">
       <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
     </history-entry>
@@ -224,6 +235,24 @@
       <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 57m 21s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 59m 07s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 09m 06s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 09m 53s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 10m 28s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 12m 05s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 12m 25s.xml">
       <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -244,8 +273,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -266,7 +295,10 @@
     <MESSAGE value="Green test - not_find_index_when_array_has_two_different_elements" />
     <MESSAGE value="Refactor - Condition extracted as method" />
     <MESSAGE value="Red test - find_index_when_array_has_two_elements_and_the_last_is_zero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Red test - find_index_when_array_has_two_elements_and_the_last_is_zero" />
+    <MESSAGE value="Green test - find_index_when_array_has_two_elements_and_the_last_is_zero" />
+    <MESSAGE value="Red test - not_find_index_when_array_has_three_elements_and_dont_has_equals_sizes" />
+    <MESSAGE value="Green test - not_find_index_when_array_has_three_elements_and_dont_has_equals_sizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - not_find_index_when_array_has_three_elements_and_dont_has_equals_sizes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -278,12 +310,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EqualSidesShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="274">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
           </folding>
         </state>
       </provider>
