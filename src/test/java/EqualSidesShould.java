@@ -31,10 +31,14 @@ public class EqualSidesShould {
             if (hasOnlyOne(elements)) return 0;
             for (int position = 0; position<elements.length-1; position++){
                 int[] rightSize = getRightSizeOf(elements, position);
-                int sumElementes = Arrays.stream(rightSize).sum();
-                if (sumElementes == 0) return position;
+                int sumElements = getSumOfElements(rightSize);
+                if (sumElements == 0) return position;
             }
             return -1;
+        }
+
+        private static int getSumOfElements(int[] rightSize) {
+            return Arrays.stream(rightSize).sum();
         }
 
         private static int[] getRightSizeOf(int[] elements, int position) {
