@@ -26,6 +26,11 @@ public class EqualSidesShould {
         assertThat(EqualSides.findEvenIndex(new int[] {0, 0, -1})).isEqualTo(-1);
     }
 
+    @Test
+    public void find_index_when_array_has_three_elements_and_has_equals_sizes() {
+        assertThat(EqualSides.findEvenIndex(new int[] {-1, 0, -1})).isEqualTo(1);
+    }
+
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
