@@ -13,6 +13,11 @@ public class EqualSidesShould {
         assertThat(EqualSides.findEvenIndex(new int[] {0, 1})).isEqualTo(-1);
     }
 
+    @Test
+    public void find_index_when_array_has_two_elements_and_the_last_is_zero() {
+        assertThat(EqualSides.findEvenIndex(new int[] {0, 0})).isEqualTo(0);
+    }
+
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
