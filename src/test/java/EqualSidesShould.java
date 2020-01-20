@@ -21,6 +21,7 @@ public class EqualSidesShould {
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
+            if (elements[1] == 0) return 0;
             return -1;
         }
 

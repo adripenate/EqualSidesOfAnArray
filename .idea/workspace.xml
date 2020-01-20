@@ -30,12 +30,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EqualSidesShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="68" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="68" />
+            <state relative-caret-position="255">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,7 +173,35 @@
       <option name="project" value="LOCAL" />
       <updated>1579521001195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Red test - not_find_index_when_array_has_two_different_elements">
+      <created>1579521180395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579521180395</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Green test - not_find_index_when_array_has_two_different_elements">
+      <created>1579521226806</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579521226806</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactor - Condition extracted as method">
+      <created>1579521294773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579521294773</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Red test - find_index_when_array_has_two_elements_and_the_last_is_zero">
+      <created>1579521398480</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579521398480</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -222,7 +250,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Red test - find_index_0_when_array_has_one_element" />
     <MESSAGE value="Green test - find_index_0_when_array_has_one_element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - find_index_0_when_array_has_one_element" />
+    <MESSAGE value="Red test - not_find_index_when_array_has_two_different_elements" />
+    <MESSAGE value="Green test - not_find_index_when_array_has_two_different_elements" />
+    <MESSAGE value="Refactor - Condition extracted as method" />
+    <MESSAGE value="Red test - find_index_when_array_has_two_elements_and_the_last_is_zero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Red test - find_index_when_array_has_two_elements_and_the_last_is_zero" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -234,12 +266,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EqualSidesShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="68" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="68" />
+        <state relative-caret-position="255">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
           </folding>
         </state>
       </provider>
