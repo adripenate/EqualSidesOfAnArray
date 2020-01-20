@@ -10,7 +10,7 @@ public class EqualSidesShould {
 
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
-            return -1;
+            return 0;
         }
     }
 }
