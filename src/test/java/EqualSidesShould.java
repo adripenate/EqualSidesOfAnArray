@@ -15,8 +15,12 @@ public class EqualSidesShould {
 
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
-            if (elements.length == 1) return 0;
+            if (hasOnlyOne(elements)) return 0;
             return -1;
+        }
+
+        private static boolean hasOnlyOne(int[] elements) {
+            return elements.length == 1;
         }
     }
 }
