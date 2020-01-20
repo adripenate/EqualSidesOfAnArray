@@ -31,13 +31,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EqualSidesShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="223">
+              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1375#1376#0" expanded="true" />
                 <element signature="e#1436#1437#0" expanded="true" />
-                <element signature="e#2055#2056#0" expanded="true" />
+                <element signature="e#2369#2370#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -252,13 +252,17 @@
       <option name="project" value="LOCAL" />
       <updated>1579522882098</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactor - Operation extracted as method and signature method modified">
+      <created>1579523088461</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579523088461</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 09m 53s.xml">
-      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 10m 28s.xml">
       <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
     </history-entry>
@@ -284,6 +288,9 @@
       <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 21m 07s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 24m 23s.xml">
       <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -332,7 +339,8 @@
     <MESSAGE value="Refactor - Operation extracted as method" />
     <MESSAGE value="Red test - find_index_when_array_has_three_elements_and_has_equals_sizes" />
     <MESSAGE value="Green test - find_index_when_array_has_three_elements_and_has_equals_sizes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - find_index_when_array_has_three_elements_and_has_equals_sizes" />
+    <MESSAGE value="Refactor - Operation extracted as method and signature method modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Operation extracted as method and signature method modified" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -344,13 +352,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EqualSidesShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="223">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1375#1376#0" expanded="true" />
             <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#2055#2056#0" expanded="true" />
+            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>

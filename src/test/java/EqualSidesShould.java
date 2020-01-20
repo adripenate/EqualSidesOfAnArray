@@ -34,13 +34,21 @@ public class EqualSidesShould {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
             for (int position = 0; position<elements.length-1; position++){
-                int[] rightSize = getElementsFrom(elements, position+1, elements.length);
-                int[] leftSize = getElementsFrom(elements, 0, position);
-                int sumElements = getSumOfElements(rightSize);
-                int sumLeftElements = getSumOfElements(leftSize);
+                int sumElements = getSumOfRightSideElements(elements, position);
+                int sumLeftElements = getSumOfLeftSideElements(elements, position);
                 if (sumElements == sumLeftElements) return position;
             }
             return -1;
+        }
+
+        private static int getSumOfLeftSideElements(int[] elements, int position) {
+            int[] leftSize = getElementsFrom(elements, 0, position);
+            return getSumOfElements(leftSize);
+        }
+
+        private static int getSumOfRightSideElements(int[] elements, int position) {
+            int[] rightSize = getElementsFrom(elements, position+1, elements.length);
+            return getSumOfElements(rightSize);
         }
 
         private static int getSumOfElements(int[] rightSize) {
