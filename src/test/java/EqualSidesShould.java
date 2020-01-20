@@ -25,6 +25,11 @@ public class EqualSidesShould {
         assertThat(EqualSides.findEvenIndex(new int[] {2, -2, -1})).isEqualTo(2);
     }
 
+    @Test
+    public void not_find_index() {
+        assertThat(EqualSides.findEvenIndex(new int[] {2, 5, -3})).isEqualTo(-1);
+    }
+
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
