@@ -30,6 +30,11 @@ public class EqualSidesShould {
         assertThat(EqualSides.findEvenIndex(new int[] {-1, 0, -1})).isEqualTo(1);
     }
 
+    @Test
+    public void find_index_when_array_has_four_elements_and_has_equals_sizes() {
+        assertThat(EqualSides.findEvenIndex(new int[] {-1, 1, -1})).isEqualTo(2);
+    }
+
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
