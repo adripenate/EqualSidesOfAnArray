@@ -30,11 +30,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EqualSidesShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+            <state relative-caret-position="53">
+              <caret line="29" column="77" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1892#1893#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,25 +223,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579522369550</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactor - Operation extracted as method">
+      <created>1579522533475</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579522533475</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactor - Operation extracted as method">
+      <created>1579522632110</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579522632110</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 53m 37s.xml">
-      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 54m 38s.xml">
-      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 56m 08s.xml">
-      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 57m 21s.xml">
-      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 11h 59m 07s.xml">
-      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 09m 06s.xml">
       <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
     </history-entry>
@@ -253,6 +254,21 @@
       <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 12m 25s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 15m 10s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 16m 42s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 18m 14s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 18m 37s.xml">
+      <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EqualSidesShould_(1) - 2020.01.20 at 12h 18m 58s.xml">
       <configuration name="EqualSidesShould (1)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -273,7 +289,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,7 +314,8 @@
     <MESSAGE value="Green test - find_index_when_array_has_two_elements_and_the_last_is_zero" />
     <MESSAGE value="Red test - not_find_index_when_array_has_three_elements_and_dont_has_equals_sizes" />
     <MESSAGE value="Green test - not_find_index_when_array_has_three_elements_and_dont_has_equals_sizes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - not_find_index_when_array_has_three_elements_and_dont_has_equals_sizes" />
+    <MESSAGE value="Refactor - Operation extracted as method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Operation extracted as method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -310,11 +327,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EqualSidesShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        <state relative-caret-position="53">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
           </folding>
         </state>
       </provider>

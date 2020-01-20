@@ -36,8 +36,10 @@ public class EqualSidesShould {
             if (hasOnlyOne(elements)) return 0;
             for (int position = 0; position<elements.length-1; position++){
                 int[] rightSize = getRightSizeOf(elements, position);
+                int[] leftSize = Arrays.copyOfRange(elements, 0, position);
                 int sumElements = getSumOfElements(rightSize);
-                if (sumElements == 0) return position;
+                int sumLeftElements = getSumOfElements(leftSize);
+                if (sumElements == sumLeftElements) return position;
             }
             return -1;
         }
