@@ -1,5 +1,8 @@
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class EqualSidesShould {
@@ -26,7 +29,11 @@ public class EqualSidesShould {
     private static class EqualSides {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
-            if (elements[1] == 0) return 0;
+            for (int i = 0; i<elements.length-1; i++){
+                int[] rightSize = Arrays.copyOfRange(elements, i+1, elements.length);
+                int sumElementes = Arrays.stream(rightSize).sum();
+                if (sumElementes == 0) return i;
+            }
             return -1;
         }
 
