@@ -1,7 +1,6 @@
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -35,8 +34,8 @@ public class EqualSidesShould {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
             for (int position = 0; position<elements.length-1; position++){
-                int[] rightSize = getRightSizeOf(elements, position);
-                int[] leftSize = Arrays.copyOfRange(elements, 0, position);
+                int[] rightSize = getElementsFrom(elements, position+1, elements.length);
+                int[] leftSize = getElementsFrom(elements, 0, position);
                 int sumElements = getSumOfElements(rightSize);
                 int sumLeftElements = getSumOfElements(leftSize);
                 if (sumElements == sumLeftElements) return position;
@@ -48,8 +47,8 @@ public class EqualSidesShould {
             return Arrays.stream(rightSize).sum();
         }
 
-        private static int[] getRightSizeOf(int[] elements, int position) {
-            return Arrays.copyOfRange(elements, position+1, elements.length);
+        private static int[] getElementsFrom(int[] elements, int startPosition, int endPosition) {
+            return Arrays.copyOfRange(elements, startPosition, endPosition);
         }
 
         private static boolean hasOnlyOne(int[] elements) {
