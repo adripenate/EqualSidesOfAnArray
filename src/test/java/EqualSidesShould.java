@@ -34,9 +34,9 @@ public class EqualSidesShould {
         public static int findEvenIndex(int[] elements) {
             if (hasOnlyOne(elements)) return 0;
             for (int position = 0; position<elements.length-1; position++){
-                int sumElements = getSumOfElementsFrom(elements, position+1, elements.length);
-                int sumLeftElements = getSumOfElementsFrom(elements, 0, position);
-                if (sumElements == sumLeftElements) return position;
+                int sumOfRightElements = getSumOfElementsFrom(elements, position+1, elements.length);
+                int sumOfLeftElements = getSumOfElementsFrom(elements, 0, position);
+                if (sumOfRightElements == sumOfLeftElements) return position;
             }
             return -1;
         }
